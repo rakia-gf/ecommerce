@@ -9,5 +9,8 @@ qtestock:{ type: Number, required: false },
 imageart:{ type: String, required: false },
 scategorieID: {type:mongoose.Schema.Types.ObjectId,
 ref:Scategorie}
+
+
+
 })
 module.exports=mongoose.model('article',articleSchema)
